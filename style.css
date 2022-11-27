@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, purple 40%, rgb(0, 149, 255));
+    font-family: sans-serif;
+}
+
+
+.loginbox {
+    height: 700px;
+    width: 550px;
+    border-radius: 15px;
+    background-color: rgb(240, 238, 238);
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#username, #password {
+    display: block;
+    margin-bottom: 7px;
+}
+
+#password {
+    margin-top: 50px;
+}
+
+
+.inputs {
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+input {
+    background-color: rgb(240, 238, 238);
+    height: 40px;
+    width: 350px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+}
+ #password-input {
+    margin-bottom: 10px;
+ }
+
+#forgot {
+    display: block;
+    color: gray;
+    margin-left: 350px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#forgot:hover {
+    color: purple;
+}
+
+
+#enter {
+    margin: 50px 120px;
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-radius: 30px;
+    background-image: linear-gradient(to right
+    , rgb(0, 149, 255) , rgb(169, 3, 169) 30%);
+    transition: 1s ease;
+    background-size: 200% auto;
+    font-weight: 500;
+    color: white;
+}
+
+#enter:hover {
+    background-position: right center;
+}
+
+
+#loginoption {
+    margin: -15px 220px;
+    font-size: 14px;
+    color: gray;
+}
+
+.loginoption-buttons {
+    margin-top: 40px;
+    margin-left: 145px;
+}
+
+.loginoption-buttons button {
+    width: 65px;
+    height: 65px;
+    border-radius: 35px;
+    margin-right: 20px;
+    background-color: white;
+    border: none;
+}
+
+.loginoption-buttons button:hover {
+    opacity: 0.9;
+}
+
+#facebook {
+    background-color: #3b5998;
+}
+
+#twitter {
+    background-color: #00acee;
+}
+
+#google {
+    background-color: #DB4437;
+}
